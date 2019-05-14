@@ -8,8 +8,8 @@ public class CSVTest {
 		try {
 			test.read();
 			test.convertValues();
-			test.getValues();
-			test.addToTempArray();
+			test.printConv();
+			test.printValues();
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
