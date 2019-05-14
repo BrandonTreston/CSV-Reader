@@ -35,14 +35,18 @@ public class CSVReader {
 			}
 		}
 	}
-	public void addToTempArray() {
-		int count = 0;
-		String temp;
+	public void addToTempArray() {	// parse each line of the csv into its own array, converting the string values separated by the comma to elements of an int []
 		int i = 0;
-		int j = 0;
-		for (i = 0; i <= convertedValues.size()-1; i++) {
+		int j = 1;
+		int count = 0;
+		int [] temp = new int[10];
+		
+		temp[0] = Integer.valueOf(values.get(count).substring(i,j));
+		System.out.println(temp[0]);
+		
+		
+		
 		}
-	}
 	
 	public void printConv() {	//prints the converted numbers
 	System.out.println(convertedValues);
