@@ -1,9 +1,0 @@
-/bin/
-
-# Eclipse files
-*.classpath
-*.project
-/.settings/
-
-# Log files
-*.log
