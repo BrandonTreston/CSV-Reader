@@ -1,6 +1,8 @@
-package csvreader;
+package src.csvreader;
 
 import java.io.IOException;
+
+import csvreader.CSVReader;
 
 public class CSVTest {
 	public static void main (String[] args) {
